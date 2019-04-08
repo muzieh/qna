@@ -7,7 +7,9 @@ namespace qna.core
 	public abstract class ValueObject<T>
 			where T : ValueObject<T>
 	{
+		//TODO: testing branching
 		public override bool Equals(object obj)
+
 		{
 			var other = obj as T;
 			if (ReferenceEquals(other, null))
