@@ -14,6 +14,7 @@ namespace qna.core
 		public Entity(string id)
 		{
 			this.Id = id;
+			Console.WriteLine("inside parameter contructor");
 		}
 		//TODO: shouldn't be private set? would break test
 		public string Id { get; private set; }
