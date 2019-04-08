@@ -8,6 +8,7 @@ namespace qna.core
 	{
 		public Entity() : this(null)
 		{
+			Console.WriteLine("inside Enity constructor");
 		}
 
 		public Entity(string id)
