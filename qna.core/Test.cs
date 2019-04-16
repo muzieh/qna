@@ -7,7 +7,11 @@ namespace qna.core
 	public class Test
 	{
 		public Test() {
-			
+			;
+		}	
+
+		public void Test1() {
+			;
 		}	
 	}
 }
