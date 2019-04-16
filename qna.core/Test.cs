@@ -4,8 +4,10 @@ using System.Text;
 
 namespace qna.core
 {
-	class Test
+	public class Test
 	{
+		public Test() {
 			
+		}	
 	}
 }
