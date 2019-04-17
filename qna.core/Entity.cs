@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace qna.core
 {
@@ -14,7 +12,7 @@ namespace qna.core
 		public Entity(string id)
 		{
 			this.Id = id;
-			Console.WriteLine("inside parameter contructor");
+			Console.WriteLine("inside parameter constructor");
 		}
 		//TODO: shouldn't be private set? would break test
 		public string Id { get; private set; }

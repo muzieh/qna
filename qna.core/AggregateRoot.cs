@@ -4,7 +4,7 @@ using System.Text;
 
 namespace qna.core
 {
-	public class AggregatRoot : Entity
+	public class AggregateRoot : Entity
 	{
 	}
 }
